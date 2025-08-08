@@ -1,0 +1,43 @@
+{
+  "package": "miband10.lst.b2048",
+  "name": "2048",
+  "versionName": "1.2",
+  "versionCode": 5,
+  "minPlatformVersion": 1000,
+  "icon": "/common/logo.png",
+  "deviceTypeList": [
+    "watch"
+  ],
+  "features": [
+    {
+      "name": "system.storage"
+    },
+    {
+      "name": "system.prompt"
+    },
+    {
+      "name": "system.folme"
+    }
+  ],
+  "config": {
+    "logLevel": "log",
+    "designWidth": 192
+  },
+  "router": {
+    "entry": "pages/index",
+    "pages": {
+      "pages/index": {
+        "component": "index"
+      }
+    }
+  },
+  "minAPILevel": 1,
+  "packageInfo": {
+    "toolkit": "2.0.5",
+    "timeStamp": "2025-08-08T07:53:03.003Z",
+    "node": "v23.11.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "component": true
+  }
+}
